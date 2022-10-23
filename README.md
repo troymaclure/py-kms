@@ -7,6 +7,9 @@
 ![read-the-docs](https://img.shields.io/readthedocs/py-kms)
 ***
 
+![](heroku-py-kms.png)
+
+
 ## History
 _py-kms_ is a port of node-kms created by [cyrozap](http://forums.mydigitallife.info/members/183074-markedsword), which is a port of either the C#, C++, or .NET implementations of KMS Emulator. The original version was written by [CODYQX4](http://forums.mydigitallife.info/members/89933-CODYQX4) and is derived from the reverse-engineered code of Microsoft's official KMS.
 
@@ -44,6 +47,12 @@ The wiki has been completly reworked and is now available on [readthedocs.com](h
 - To start the server automatically using Docker, execute `docker run -d --name py-kms --restart always -p 1688:1688 pykmsorg/py-kms`.
 - To show the help pages type: `python3 pykms_Server.py -h` and `python3 pykms_Client.py -h`.
 - For launching _py-kms_ GUI make the file `pykms_Server.py` executable with `chmod +x /path/to/folder/py-kms/pykms_Server.py`, then simply run `pykms_Server.py` by double-clicking.
+
+## Deployement
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
+
 
 ## License
    - _py-kms_ is [![Unlicense](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://github.com/SystemRage/py-kms/blob/master/LICENSE)

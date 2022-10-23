@@ -1,0 +1,7 @@
+{
+  "name": "py-kyms on Heroku.",
+  "description": "A deployement of py-kms on Heroku friee tier offering.",
+  "repository": "https://github.com/troymaclure/py-kms",
+  "logo" : "heroku-py-kms.png",
+  "keywords": ["heroku", "py-kms", "Windows", "Office"]
+}
